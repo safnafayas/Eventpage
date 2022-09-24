@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@600&family=Roboto+Condensed&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+section{
+    width: 100%;
+    height:100vh;
+    background: url(tech.webp);
+    background-size: cover;
+}
+section .leftbox{
+     width: 50%;
+     height: 100%;
+     float: left;
+     padding: 50px;
+     box-sizing: border-box;
+     margin: auto;
+   
+}
+section .leftbox img{
+    width: 50%;
+    height: 40vh;
+    padding:10px;
+    padding-top: 0px;
+    padding-left: 25%;
+
+}
+section .leftbox .content{
+    color:#fff;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    height: 45%;
+
+    transition: .5s;    
+}
+section .leftbox .content:hover{
+    background:#4f9ffa;;
+}
+section .leftbox .content h1{
+    margin:0;
+    padding: 0;
+    font-size:30px;
+    text-transform: uppercase;
+
+}
+section .leftbox .content p{
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 20px;
+}
+ .events{
+    position: relative;
+    overflow: scroll;
+    width: 50%;
+    height: 100%;
+    background: rgba(0,0,0,0.75);
+    float: right;
+    box-sizing: border-box;
+    
+} .events ul{
+    position: relative;
+    top:50%;
+    transform: translateY(-22%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+ .events ul li{
+    list-style: none;
+    box-sizing: border-box;
+    background: #fff;
+    height: 200px;
+    margin:15px 0;
+}
+ .events ul li .time{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+.events ul li:hover .time{
+    background:#4f9ffa;
+}
+.events ul li .time h2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+}
+.events ul li .time h2 span{
+    font-size:25px ;
+}
+section .events ul li .details{
+    padding-left: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+    margin: auto;
+
+
+}
+section .events ul li .details h3{
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    font-size: 22px;
+
+}
+section .events ul li .details p{
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+section .events ul li .details a{
+    display:inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    border: 2px solid #262626;
+    margin-top: 15px;
+    font-size: 18px;
+    transition: .5s;
+    color: #262626;
+    
+}
+section .events ul li .details a:hover{
+    background:#262626 ;
+    color: #fff;
+    border-color: #262626;
+}
